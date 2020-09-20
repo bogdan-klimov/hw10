@@ -1,0 +1,78 @@
+
+
+
+        firstTdFirstTr.innerText = "Hours";
+
+        let firstTdSecondTr = document.createElement("tr");
+            
+        firstTd.append(firstTdSecondTr);
+
+        firstTdSecondTr.innerText = "Mon";
+
+        let firstTdThirdTr = document.createElement("tr");
+            
+        firstTd.append(firstTdThirdTr);
+
+        firstTdThirdTr.innerText = "Tue";
+
+        let firstTdFourthTr = document.createElement("tr");
+            
+        firstTd.append(firstTdFourthTr);
+
+        firstTdFourthTr.innerText = "Wed";
+
+        let firstTdFifthTr = document.createElement("tr");
+            
+        firstTd.append(firstTdFifthTr);
+        
+        firstTdFifthTr.innerText = "Thu";
+
+        let firstTdSixthTr = document.createElement("tr");
+            
+        firstTd.append(firstTdSixthTr);
+
+        firstTdSixthTr.innerText = "Fri";
+
+    let secondTd = document.createElement("td");
+
+    form.append(secondTd);
+    
+        let secondTdFirstTr = document.createElement("tr");
+
+        secondTd.append(secondTdFirstTr);
+
+        let secondTdSecondTr = document.createElement("tr");
+            
+        secondTd.prepend(secondTdSecondTr);
+
+        let secondTdThirdTr = document.createElement("tr");
+            
+        secondTd.append(secondTdThirdTr);
+
+        let secondTdFourthTr = document.createElement("tr");
+            
+        secondTd.append(secondTdFourthTr);
+
+        let secondTdFifthTr = document.createElement("tr");
+            
+        secondTd.append(secondTdFifthTr);
+
+        let secondTdSixthTr = document.createElement("tr");
+            
+        secondTd.append(secondTdSixthTr);
+
+    let thirdTd = document.createElement("td");
+
+    form.append(thirdTd);
+
+    let fourthTd = document.createElement("td");
+
+    form.append(fourthTd);
+
+    let fifthTd = document.createElement("td");
+
+    form.append(fifthTd);
+
+    let sixthTd = document.createElement("td");
+
+    form.append(sixthTd);
